@@ -1,1 +1,1 @@
-google.com, ca-app-pub-3813332319440206-2391836600, RESELLER, f08c47fec0942fa0
+google.com, pub-3813332319440206, DIRECT, f08c47fec0942fa0
