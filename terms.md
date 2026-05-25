@@ -1,7 +1,7 @@
 # Terms of Service
 
 **CurbSync**
-**Last updated: March 28, 2026**
+**Last updated: May 25, 2026**
 
 ## 1. Acceptance
 
@@ -9,19 +9,19 @@ By downloading, installing, or using CurbSync ("the app"), you agree to these Te
 
 ## 2. Description of Service
 
-CurbSync provides estimated airport curbside pickup timing by combining real-time flight arrival data with drive-time calculations. The app is offered in two tiers:
+CurbSync provides estimated airport timing — telling you when to leave to catch a departing flight or to pick someone up curbside — by combining real-time flight data with drive-time calculations. The app is offered in two tiers:
 
 - **Free:** Track 1 flight at a time with manual refresh (20 lookups/day)
-- **Pro (subscription):** Unlimited tracking, push notifications, Live Activity updates, and background polling
+- **Pro (subscription):** Unlimited refresh, auto and background polling, push notifications, Live Activity / Dynamic Island updates, baggage-claim timing, terminal-specific pickup refinement, departure-delay alerts, and the Share-ETA feature
 
 ## 3. Accuracy Disclaimer
 
-CurbSync provides **estimates only**. Flight arrival times, drive-time calculations, and pickup timing suggestions are based on third-party data sources (FlightAware, Google Maps) and may be inaccurate, delayed, or unavailable. **Do not rely solely on CurbSync for time-critical decisions.**
+CurbSync provides **estimates only**. Flight times, drive-time calculations, and "when to leave" suggestions are based on third-party flight data (FlightAware) and on-device map data, and may be inaccurate, delayed, or unavailable. **Do not rely solely on CurbSync for time-critical decisions** like making a boarding cutoff.
 
 We are not responsible for:
-- Missed pickups due to inaccurate estimates
+- Missed flights or missed pickups due to inaccurate estimates
 - Flight data delays or errors from FlightAware
-- Traffic or route calculation errors from Google Maps
+- Traffic or route calculation errors from the device's map service
 - Service outages or connectivity issues
 
 ## 4. Subscriptions

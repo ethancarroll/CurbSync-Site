@@ -1,11 +1,11 @@
 # Privacy Policy
 
 **CurbSync**  
-**Last updated: March 28, 2026**
+**Last updated: May 25, 2026**
 
 ## Overview
 
-CurbSync ("we", "our", "the app") helps you time airport curbside pickups by tracking flight arrivals and drive times. This policy explains what data we collect, how we use it, and your rights.
+CurbSync ("we", "our", "the app") helps you time airport trips by tracking flight status and drive times — whether you're catching a flight or picking someone up. This policy explains what data we collect, how we use it, and your rights.
 
 ## Data We Collect
 
@@ -26,9 +26,11 @@ This data is used solely to fetch arrival status and is deleted when you remove 
 
 ### Location and Address Data
 
-- Destination addresses you enter for drive-time estimates
+With your permission, CurbSync uses your device's location to determine your starting point. The location is reverse-geocoded **on your device** into a human-readable address (e.g. "123 Main St, Springfield, IL"). You may also enter or override this address manually.
 
-Addresses are sent to our server to calculate drive times via Google Maps. We do not store your physical location or GPS coordinates.
+The resulting address is sent to our server only when you start tracking a flight, so we can store the tracking record. Raw GPS coordinates are never sent to our server.
+
+**Drive times are calculated entirely on your device** using Apple Maps (MapKit). Your origin and destination are not sent to any third-party routing service.
 
 ### Device Tokens
 
@@ -52,9 +54,9 @@ We do not track your browsing habits, app usage patterns, or analytics beyond ra
 
 ## How We Use Your Data
 
-- Flight tracking: Fetch real-time arrival data from FlightAware AeroAPI
-- Drive time: Calculate estimated drive times via Google Distance Matrix API
-- Notifications: Send push notifications when flight status changes (Pro)
+- Flight tracking: Fetch real-time arrival/departure data from FlightAware AeroAPI
+- Drive time: Calculated **on your device** via Apple Maps; no data sent to our server for this
+- Notifications: Send push notifications when it's time to leave (Pro)
 - Rate limiting: Enforce free-tier usage limits
 - Account management: Authenticate your identity and manage your subscription
 
@@ -64,15 +66,16 @@ We use the following services to operate CurbSync:
 
 - Apple (Sign in with Apple): https://www.apple.com/privacy/
 - FlightAware AeroAPI: https://www.flightaware.com/about/privacy/
-- Google Distance Matrix API: https://policies.google.com/privacy
 - Apple Push Notification Service: https://www.apple.com/privacy/
+
+Drive-time calculation uses Apple Maps locally on your device and does not transmit data to any third party.
 
 We do not sell, rent, or share your personal data with advertisers or data brokers.
 
 ## Data Retention
 
 - Account data: Retained until you delete your account
-- Tracked flights: Retained until you remove them or they are older than 48 hours
+- Tracked flights: Retained on our server until you remove them, your flight is marked completed (typically within hours of arrival), or the record is older than 48 hours with no activity
 - Device tokens: Retained until you sign out or delete your account
 
 ## Your Rights
